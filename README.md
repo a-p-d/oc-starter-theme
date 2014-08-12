@@ -7,6 +7,7 @@ Basic starting point for October CMS theme development.
 **BOULAY Fabien**
 
 - <http://a-p-d.github.io>
+- <https://github.com/boulox>
 
 ## License
 
