@@ -1,0 +1,53 @@
+// --------------------------------------------------
+// _layouts/global.less
+// --------------------------------------------------
+//
+// Common layout elements.
+//
+// Anything that is general/reusable and specif
+// to individual pages should be pushed up into a LESS file.
+// ----------------------
+
+
+
+
+// --------------------------------------------------
+// Body
+// --------------------------------------------------
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+
+
+.wrapper {
+  .make-row();
+}
+.content-main {
+  .make-lg-column(8);
+}
+.content-secondary {
+  .make-lg-column(4);
+}
+
+
+
+// --------------------------------------------------
+// Footer
+// --------------------------------------------------
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}

@@ -1,0 +1,23 @@
+name = "Default Layout"
+description = "Default layout, a basic page with a full width layout."
+==
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {% partial 'head' %}
+  </head> 
+  <body>
+    <!-- Nav -->
+    {% partial 'nav' %}     
+
+    <!-- Content -->
+    {% page %}
+  
+    <!-- Footer -->
+    {% partial "footer" %}
+    
+    <!-- Javascripts -->
+    {% partial 'scripts' %}   
+  </body>
+</html>

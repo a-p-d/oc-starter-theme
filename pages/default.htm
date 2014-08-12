@@ -1,0 +1,38 @@
+title = "home"
+url = "/"
+layout = "default"
+
+[octocaseItems]
+itemsPerPage = "10"
+pageParam = ":page"
+itemOrderParam = "title"
+itemOrderDirParam = "asc"
+categoryFilter = ":slug"
+categoryPage = "404"
+categoryPageIdParam = ":slug"
+itemPage = "tt"
+itemPageIdParam = ":slug"
+noItemsMessage = "No items found"
+==
+<div class="jumbotron">
+  <div class="container">
+    <h1>Sticky footer with fixed navbar</h1>
+<p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p>
+<p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="page-header">
+    <h2>Overview <small>Basic concepts</small></h2>
+  </div>
+  
+  <p>This page demonstrates the basic CMS features. Usually each page built with October is a combination of a layout, page, partials and content blocks, although in simple cases you can just use a page without anything else.</p>
+  
+  <!-- Layouts -->
+  <h3>Layouts</h3>
+  <p class="lead"><i class="icon-th-large"></i>Layouts define the page scaffold.</p>
+  <p>The layout file <code>layouts/default.htm</code> defines the page scaffold —everything that repeats on each page, such as the HTML, HEAD and BODY tags, StyleSheet and JavaScript references.</p>
+  <!-- Pages -->
+{% component 'octocaseItems' %}
+</div>

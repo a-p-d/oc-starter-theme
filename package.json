@@ -1,0 +1,30 @@
+{
+  "name": "october-starter-theme",
+  "description": "A Boilerplate project for Kick-start your next website design.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/A-P-D/starter",
+  "author": {
+    "name": "Boulay fabien",
+    "url": "https://github.com/boulox/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-p-d/starter.github.io.git"
+  },
+  "license": {
+      "type": "MIT"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "load-grunt-tasks": "~0.6.0",
+    "grunt-banner": "~0.2.3",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-less": "~0.11.3",
+    "grunt-autoprefixer": "~0.8.2",
+    "grunt-csscomb": "~3.0.0",
+    "grunt-contrib-jshint": "~0.10.0"
+  }
+}
