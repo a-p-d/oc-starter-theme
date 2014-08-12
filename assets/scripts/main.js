@@ -1,6 +1,6 @@
 /*!
- * october-starter-theme v0.1.0 (https://github.com/A-P-D/starter) 
- * Copyright Boulay fabien 
+ * Starter v0.1.0 (https://github.com/a-p-d/october-starter-theme) 
+ * Copyright Boulay Fabien 
  * Licensed under MIT 
  */
 

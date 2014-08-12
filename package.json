@@ -1,5 +1,6 @@
 {
   "name": "october-starter-theme",
+  "title": "Starter",
   "description": "Basic starting point for October CMS theme development.",
   "version": "0.1.0",
   "homepage": "https://github.com/a-p-d/october-starter-theme",

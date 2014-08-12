@@ -1,6 +1,6 @@
 /*!
- * october-starter-theme v0.1.0 (https://github.com/A-P-D/starter) 
- * Copyright Boulay fabien 
+ * Starter v0.1.0 (https://github.com/a-p-d/october-starter-theme) 
+ * Copyright Boulay Fabien 
  * Licensed under MIT 
  */
 
@@ -5288,7 +5288,9 @@ button.close {
 .panel-body:before,
 .panel-body:after,
 .modal-footer:before,
-.modal-footer:after {
+.modal-footer:after,
+.wrapper:before,
+.wrapper:after {
   display: table;
   content: " ";
 }
@@ -5306,7 +5308,8 @@ button.close {
 .navbar-collapse:after,
 .pager:after,
 .panel-body:after,
-.modal-footer:after {
+.modal-footer:after,
+.wrapper:after {
   clear: both;
 }
 .center-block {
@@ -7107,63 +7110,6 @@ button.close {
 .fa-bomb:before {
   content: "\f1e2";
 }
-#swipebox-slider .slide {
-  background: url(../img/loader.gif) no-repeat center center;
-}
-.fluidbox {
-  outline: none;
-}
-.fluidbox-overlay {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  cursor: pointer;
-  cursor: -webkit-zoom-out;
-  opacity: 0;
-  -webkit-transition: all .25s ease-in-out;
-       -o-transition: all .25s ease-in-out;
-          transition: all .25s ease-in-out;
-}
-.fluidbox-wrap {
-  position: relative;
-  margin: 0 auto;
-  background-position: center center;
-  -webkit-background-size: cover;
-          background-size: cover;
-  -webkit-transition: all .25s ease-in-out;
-       -o-transition: all .25s ease-in-out;
-          transition: all .25s ease-in-out;
-}
-.fluidbox-ghost {
-  position: absolute;
-  background-position: center center;
-  -webkit-background-size: cover;
-          background-size: cover;
-  -webkit-transition: all .25s ease-in-out;
-       -o-transition: all .25s ease-in-out;
-          transition: all .25s ease-in-out;
-}
-.fluidbox-closed .fluidbox-ghost {
-  -webkit-transition-delay: 0, 0, .25s, 0;
-       -o-transition-delay: 0, 0, .25s, 0;
-          transition-delay: 0, 0, .25s, 0;
-  -webkit-transition-property: top, left, opacity, -webkit-transform;
-       -o-transition-property: top, left, opacity, -o-transform;
-          transition-property: top, left, opacity, transform;
-}
-.fluidbox-closed .fluidbox-wrap img {
-  -webkit-transition-delay: .25s;
-       -o-transition-delay: .25s;
-          transition-delay: .25s;
-  -webkit-transition-duration: 0s;
-       -o-transition-duration: 0s;
-          transition-duration: 0s;
-  -webkit-transition-property: opacity;
-       -o-transition-property: opacity;
-          transition-property: opacity;
-}
 ::-moz-selection {
   text-shadow: none;
   background: #428bca;
@@ -7179,6 +7125,34 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+}
+.wrapper {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.content-main {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 1200px) {
+  .content-main {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+.content-secondary {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 1200px) {
+  .content-secondary {
+    float: left;
+    width: 33.33333333%;
+  }
 }
 .footer {
   position: absolute;

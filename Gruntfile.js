@@ -3,23 +3,21 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
-    // Meta data
+    // Metadata
     pkg: grunt.file.readJSON('package.json'),
 
     banner: '/*!\n' +
-            ' * <%= pkg.name %> v<%= pkg.version %> (<%= pkg.homepage %>) \n' +
+            ' * <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>) \n' +
             ' * Copyright <%= pkg.author.name %> \n' +
             ' * Licensed under <%= pkg.license.type %> \n' +
             ' */\n',
 
     // Task configuration.
-
     clean: {
       css: ["assets/stylesheets/*.css"],
       js: ["assets/scripts/*.js"],
       fonts: ["assets/fonts/"]
     },
-
 
     // CSS Compile
     less: {
