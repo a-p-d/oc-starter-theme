@@ -1,18 +1,19 @@
 {
   "name": "october-starter-theme",
-  "description": "A Boilerplate project for Kick-start your next website design.",
+  "description": "Basic starting point for October CMS theme development.",
   "version": "0.1.0",
-  "homepage": "https://github.com/A-P-D/starter",
+  "homepage": "https://github.com/a-p-d/october-starter-theme",
   "author": {
-    "name": "Boulay fabien",
-    "url": "https://github.com/boulox/"
+    "name": "Boulay Fabien",
+    "url": "http://a-p-d.github.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/a-p-d/starter.github.io.git"
+    "url": "https://github.com/a-p-d/october-starter-theme.github.io.git"
   },
   "license": {
-      "type": "MIT"
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
   },
   "dependencies": {},
   "devDependencies": {

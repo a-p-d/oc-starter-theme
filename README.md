@@ -1,14 +1,13 @@
-WORK IN PROCESS NOT READY FOR PRIME TIME
-
-
 # STARTER
+
+Basic starting point for October CMS theme development.
 
 ## Author
 
 **BOULAY Fabien**
 
-- <http://github.com/boulox>
+- <http://a-p-d.github.io>
 
-## Copyright and license
+## License
 
-Please be aware of the licenses of each component we use in this project. Everything else that has been developed by the contributions to this project is under [the MIT license](LICENSE).
+MIT © [BOULAY Fabien](http://a-p-d.github.io)
